@@ -1,0 +1,42 @@
+html {
+   background: linear-gradient(to top right, white , violet,white);
+   height: 100%;
+   position: relative;
+   overflow: hidden;
+}
+
+.container {
+   height: 300px;
+   width: 300px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin: -150px 0 0 -150px;
+}
+
+.square {
+   height: 94%;
+   width: 94%;
+   background: linear-gradient(to top right,white, darkmagenta,white);   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin: -47% 0 0 -47%;
+   /* border-radius: 25%; */
+}
+
+.block {
+   background: chartreuse; 
+   position: absolute;
+   animation: rotate 30s infinite linear;
+   /* border-radius: 25%; */
+}
+
+@keyframes rotate {
+   0% {
+      transform: rotate(0deg);
+   }
+
+   100% {
+      transform: rotate(720deg);
+   }
+}
