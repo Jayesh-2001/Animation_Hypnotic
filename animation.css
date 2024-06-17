@@ -1,5 +1,5 @@
 html {
-   background: linear-gradient(to top right, white , violet,white);
+   background: linear-gradient(to top right, white, violet, white);
    height: 100%;
    position: relative;
    overflow: hidden;
@@ -17,7 +17,7 @@ html {
 .square {
    height: 94%;
    width: 94%;
-   background: linear-gradient(to top right,white, darkmagenta,white);   
+   background: linear-gradient(to top right, white, darkmagenta, white);
    position: absolute;
    top: 50%;
    left: 50%;
@@ -26,7 +26,7 @@ html {
 }
 
 .block {
-   background: chartreuse; 
+   background: chartreuse;
    position: absolute;
    animation: rotate 30s infinite linear;
    /* border-radius: 25%; */
@@ -38,6 +38,6 @@ html {
    }
 
    100% {
-      transform: rotate(720deg);
+      transform: rotate(1080deg);
    }
 }
