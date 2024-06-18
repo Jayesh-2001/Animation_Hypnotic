@@ -28,7 +28,7 @@ html {
 .block {
    background: chartreuse;
    position: absolute;
-   animation: rotate 30s infinite linear;
+   animation: rotate 5s infinite linear;
    /* border-radius: 25%; */
 }
 
@@ -38,6 +38,6 @@ html {
    }
 
    100% {
-      transform: rotate(1080deg);
+      transform: rotate(360deg);
    }
 }
