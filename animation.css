@@ -6,8 +6,8 @@ html {
 }
 
 .container {
-   height: 300px;
-   width: 300px;
+   height: 333px;
+   width: 333px;
    position: absolute;
    top: 50%;
    left: 50%;
@@ -28,7 +28,7 @@ html {
 .block {
    background: chartreuse;
    position: absolute;
-   animation: rotate 5s infinite linear;
+   animation: rotate 10s infinite linear;
    /* border-radius: 25%; */
 }
 
@@ -37,7 +37,13 @@ html {
       transform: rotate(0deg);
    }
 
+   50% {
+      transform: rotate(360deg);
+   }
+
+   /*
    100% {
       transform: rotate(360deg);
    }
+*/
 }
